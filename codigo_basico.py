@@ -27,17 +27,63 @@ mensaje = f"Mi nombre es {nombre} y tengo {edad} años, tengo una altura de {alt
 
 print(mensaje)
 
-def main():
+#def main():
 
-    es_estudiante = input("Eres estudiante? (si/no): ")
+    #es_estudiante = input("Eres estudiante? (si/no): ")
 
-    if es_estudiante == "si".lower():
+    #if es_estudiante == "si".lower():
 
-        return True
+        #return True
     
-    else:
-        return False
+    #else:
+        #return False
     
-print(main())    
+#print(main())    
 
-    
+"""Operadores y Expresiones:
+
+1 Escribe un programa que calcule el área de un triángulo a partir de la base y la altura ingresadas por el usuario. Utiliza la fórmula: Área = (base * altura) / 2.
+2 Solicita al usuario que ingrese dos números enteros y calcula su suma, resta, multiplicación y división. Imprime los resultados.
+3 Dado un valor en grados Celsius ingresado por el usuario, conviértelo a grados Fahrenheit utilizando la fórmula: Fahrenheit = (Celsius * 9/5) + 32.
+4 Escribe un programa que calcule el área de un círculo a partir del radio ingresado por el usuario. Utiliza la fórmula: Área = π * radio^2. Puedes usar una aproximación de π = 3.14159."""
+
+#1 Escribe un programa que calcule el área de un triángulo a partir de la base y la altura ingresadas por el usuario. Utiliza la fórmula: Área = (base * altura) / 2.
+
+ingresar_base = int(input("Ingrese la Base: "))
+ingresar_altura = int(input("Ingrese la Altura: "))
+
+area = (ingresar_base * ingresar_altura) / 2
+
+print(area)
+
+#2 Solicita al usuario que ingrese dos números enteros y calcula su suma, resta, multiplicación y división. Imprime los resultados.    
+
+ingresar_numero1 = int(input("Ingrese el Primer Numero: "))
+ingresar_numero2 = int(input("Ingrese el Segundo Numero: "))
+
+suma = ingresar_numero1 + ingresar_numero2
+
+resta = ingresar_numero1 - ingresar_numero2
+
+multiplicacion = ingresar_numero1 * ingresar_numero2
+
+division = ingresar_numero1 / ingresar_numero2
+
+print(f"La suma de los numeros ingresado es {suma} y la resta es {resta} y la multiplicacion es {multiplicacion} y la division es {division}")
+
+
+#3 Dado un valor en grados Celsius ingresado por el usuario, conviértelo a grados Fahrenheit utilizando la fórmula: Fahrenheit = (Celsius * 9/5) + 32.
+
+grados_celcius = float(input("Ingrese el valor a convertir de celsius a fahrenheit: "))
+
+fahrenheit = (grados_celcius * 9/5) + 32
+
+print(f"El grado de Fahrenheit es {fahrenheit}")
+
+#4 Escribe un programa que calcule el área de un círculo a partir del radio ingresado por el usuario. Utiliza la fórmula: Área = π * radio^2. Puedes usar una aproximación de π = 3.14159."""
+
+ingresar_radio = float(input("Ingrese el Radio: "))
+
+area = 3.14159 * ingresar_radio**2
+
+print(f"El area calculado es {area}")
