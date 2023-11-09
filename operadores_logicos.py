@@ -17,17 +17,17 @@ else:
     print(f"El numero {numero} no es divisible por 3 y 5")    
 
 
+#Crea un programa que solicite al usuario su edad y verifique si es mayor de edad (18 años o más) y si tiene permiso de conducir.
+
 edad = int(input("Ingrese su edad: "))
-tiene_permiso_de_conducir = input("Tiene permiso de conducir?")
+permiso_conducir = input("Tiene permiso de conducir?: ")
 
-if edad >=18 and tiene_permiso_de_conducir.lower() == "si":
+if edad > 18 and permiso_conducir == "si".lower():
 
-     print("Es mayor de edad y tiene permiso de conducir.")
+    print("Tiene permiso de conducir")
 
 else:
-
-    print("No es mayor de edad y no tiene permiso de conducir")     
-
+    print("No tiene permiso de conducir")
 
 año = int(input("Ingrese un año: "))
 
