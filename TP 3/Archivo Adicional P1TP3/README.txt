@@ -1,0 +1,1 @@
+Hola Aqui dejo el archivo Duarte_Ej_1.py que se utilizó para realizar el informe correspondiente al punto 1 del Trabajo Practico N° 3 
